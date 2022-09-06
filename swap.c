@@ -3,7 +3,7 @@
 void ordenaValores(int a, int b, int c);
 void ordenaValoresReferencia(int *dirA, int *dirB, int *dirC);   // int * ->  la variable almacena una dirección
 
-//  a b c           a  b  c
+//  a b c            a  b  c
 // 10 3 10   --->    3  7  10
 //  3 10
 
