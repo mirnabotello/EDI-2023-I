@@ -72,8 +72,8 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_EDI_2023_I: phony || CMakeFiles/EDI_2023_I.dir
 
-build CMakeFiles/EDI_2023_I.dir/cadenas.c.o: C_COMPILER__EDI_2023_I_Debug /Users/nsl-mbotello/UASLP/EDI-22-23A/parcial1/EDI-2023-I/cadenas.c || cmake_object_order_depends_target_EDI_2023_I
-  DEP_FILE = CMakeFiles/EDI_2023_I.dir/cadenas.c.o.d
+build CMakeFiles/EDI_2023_I.dir/calificaciones.c.o: C_COMPILER__EDI_2023_I_Debug /Users/nsl-mbotello/UASLP/EDI-22-23A/parcial1/EDI-2023-I/calificaciones.c || cmake_object_order_depends_target_EDI_2023_I
+  DEP_FILE = CMakeFiles/EDI_2023_I.dir/calificaciones.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/EDI_2023_I.dir
   OBJECT_FILE_DIR = CMakeFiles/EDI_2023_I.dir
@@ -86,7 +86,7 @@ build CMakeFiles/EDI_2023_I.dir/cadenas.c.o: C_COMPILER__EDI_2023_I_Debug /Users
 #############################################
 # Link the executable EDI_2023_I
 
-build EDI_2023_I: C_EXECUTABLE_LINKER__EDI_2023_I_Debug CMakeFiles/EDI_2023_I.dir/cadenas.c.o
+build EDI_2023_I: C_EXECUTABLE_LINKER__EDI_2023_I_Debug CMakeFiles/EDI_2023_I.dir/calificaciones.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
   OBJECT_DIR = CMakeFiles/EDI_2023_I.dir
   POST_BUILD = :

@@ -9,7 +9,7 @@
 int main() {
 
     char hora[SIZE];  // Cadenas de caracteres
-    int longitud, posicionDosPuntos;
+    int longitud;
     char *posicion;
     char horas[3], minutos[3];
     int horaNumero, minutosNumero;
